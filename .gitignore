@@ -1,0 +1,40 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境（每个项目独立，不要提交）
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 密钥与配置 —— 这类文件绝对不能提交 =====
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== VS Code =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与本地数据 =====
+*.log
+*.sqlite3
