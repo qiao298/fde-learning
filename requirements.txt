@@ -1,0 +1,7 @@
+# 这个文件记录本项目用到的第三方库
+# 换一台电脑时，只要运行：pip install -r requirements.txt
+# 就能把环境一次性装回来 —— 这就是「环境可复现」
+
+pandas==3.0.6        # 表格数据处理（L1 第 3 周、L2 全程都用）
+openpyxl==3.1.5      # 读写 Excel 文件（pandas 导出 xlsx 靠它）
+requests==2.34.2     # 发 HTTP 请求，调用 API（L1-3、L2 用）
